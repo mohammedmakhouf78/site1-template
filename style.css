@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav,nav ul,.banner,.new-items{
+    display: flex;
+} */
+
+.flex{
+    display: flex;
+}
+
+/* ********************************** */
+    /* START NAV */
+/* ********************************** */
+
+nav{
+    justify-content: space-between;
+    padding: 1.2em 7em;
+    align-items: center;
+}
+
+.logo img{
+    width: 3em;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    padding: 0px 1em;
+}
+
+nav ul li:hover{
+    color: red;
+    cursor: pointer;
+    transition-duration: 0.25s;
+}
+
+/* ********************************** */
+    /* END NAV */
+/* ********************************** */
+
+/* ********************************** */
+    /* START BANNER */
+/* ********************************** */
+
+.banner{
+    background-image: url('./images/featured-living@2x.jpg');
+    height: 540px;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.featured{
+    background-color: white;
+    height: 167px;
+    width: 242px;
+    margin-left: auto;
+    margin-right: 5em;
+    padding: 3em;
+}
+
+.featured h3{
+    color: #ffc1bd;
+    font-size: 1.0625rem;
+    font-weight: 500;
+}
+.featured h3,.featured a{
+    font-family: "Mason Neue Mono",SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+.featured h2{
+    color: #ff5458;
+    font-size: 2.8125rem;
+    font-weight: 500;
+    margin: 10px 0px 40px 0px;   
+    letter-spacing: 5px; 
+}
+
+.featured a{
+    padding: 0.6em;
+    background-color: #2a3e69;
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+.featured a:hover{
+    background-color: #e83e8c;
+}
+
+/* ********************************** */
+    /* END BANNER */
+/* ********************************** */
+
+
+
+
+
+
+
+/* ********************************** */
+    /* START NEW */
+/* ********************************** */
+.new{
+    padding-top: 4em;
+}
+
+.new-title{
+    font-weight: lighter;
+    color: #2a3e69;
+    font-size: 2.125rem;
+    margin-bottom: 0.5em;
+}
+
+.new-sub-title{
+    color: #657187;
+    line-height: 1.7rem;
+    font-size: 1.215rem;
+}
+
+.new-title,.new-sub-title{
+    text-align: center;
+}
+
+.new-items{
+    margin-top: 5em;
+    justify-content: space-around;
+}
+
+.new-items img{
+    width: 100%;
+    height: auto;
+    transform: scaleY(1.275);
+}
+
+.new-items .col{
+    width: 23%;
+    background-color: gray;
+}
+
+/* ********************************** */
+    /* END NEW */
+/* ********************************** */
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .banner{
+        height: 350px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .banner{
+        height: 240px;
+    }
+    .featured{
+        background-color: transparent;
+    }
+}
