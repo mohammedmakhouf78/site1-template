@@ -137,9 +137,61 @@ nav ul li:hover{
     transform: scaleY(1.275);
 }
 
+.new-items img:hover{
+    transform: scale(1.5);
+}
+
 .new-items .col{
     width: 23%;
-    background-color: gray;
+}
+
+.new-items .item-name{
+    margin-top: 4em;
+    color: #2a3e69;
+    font-size: 1.5625rem;
+    line-height: 2.125rem;
+    font-weight: 500;
+}
+
+.new-items .item-name:hover{
+    color: red;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.new-items .item-desc{
+    font-family: "IBM Plex Serif",-apple-system,"Georgia",serif;
+    font-size: 1.215rem;
+    line-height: 1.65;
+    color: #657187;
+    font-weight: 400;
+    margin: 1em 0em;
+    width: 80%;
+}
+
+.new-items .price{
+    font-family: "Mason Neue Mono",SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    color: #2a3e69;
+    font-size: 1rem;
+    line-height: 1.65;
+    font-weight: 400;
+}
+
+.see-everything{
+    text-align: center;
+    margin: 4em 0em;
+}
+
+.see-everything a{
+    padding: 0.6em;
+    background-color: #2a3e69;
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.see-everything a:hover{
+    background-color: #e83e8c;
 }
 
 /* ********************************** */
